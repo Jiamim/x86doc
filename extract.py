@@ -2,6 +2,7 @@
 import re
 import bs4
 import sys
+import sqlite3 as sq
 from StringIO import StringIO
 
 # not my most efficient class
@@ -248,8 +249,6 @@ class UglyDocument(object):
 			else:
 				assert isinstance(child, bs4.NavigableString)
 				safe = unicode(child)
-				for find, replace in (("&", "&amp;"), ("<", "&lt;"), (">", "&gt;")):
-					safe = safe.replace(find, replace)
 				new_string.value += safe
 		
 		length = len(new_string.value)
@@ -327,8 +326,7 @@ class DocumentWriter(object):
 			if self.__break_p(row):
 				text = self.__output_mode_data["contents"] 
 				if self.__output_mode_data["color"] == [0,0,0]:
-					css_class = ' class="%s"' % self.__output_mode_data["class"] if "class" in self.__output_mode_data else ""
-					self.__output.write("<p%s>%s</p>\n" % (css_class, text.html()))
+					self.__output.write("%s\n\n" % text.html())
 				else:
 					text = text.value
 					lowered = text.lower()
@@ -341,7 +339,7 @@ class DocumentWriter(object):
 						else:
 							tag = "h2"
 						id = re.sub("[^a-z0-9]+", "-", lowered)
-						self.__output.write('<%s id="%s">%s</%s>\n' % (tag, id, text, tag))
+						self.__output.write('\n%s:\n' % text)
 				
 				self.__output_mode = None
 				return self.write(row)
@@ -354,13 +352,12 @@ class DocumentWriter(object):
 		elif self.__output_mode == "code":
 			cell = row[0]
 			if self.__is_title(cell):
-				self.__output.write("</pre>\n")
 				self.__output_mode = None
 				return self.write(row)
 				
 			distance = cell.x - self.__output_mode_data["left"]
 			self.__output.write(" " * int(round(distance / 6.75)))
-			self.__output.write(cell.contents.html().replace(u"", u"←") + "\n")
+			self.__output.write(cell.contents.html().replace(u"", u"<-").replace(u"←", u"<-") + "\n")
 			return True
 			
 		elif self.__output_mode == "list":
@@ -439,9 +436,9 @@ class DocumentWriter(object):
 						return True
 				
 					if lowered == "operation":
-						self.__output.write('<h2 id="operation">Operation</h2>\n')
+						self.__output.write('Operation:\n')
 						self.__output_mode = "code"
-						self.__output.write("<pre>")
+						self.__output.write("\n")
 						return True
 			else:
 				if row[0].contents.value == u"•":
@@ -481,13 +478,10 @@ class DocumentWriter(object):
 			else:
 				i += 1
 		
-		self.__output.write("<table>\n")
 		for row in row_data: 
-			self.__output.write("<tr>\n")
 			for text in row:
-				self.__output.write("\t<td>%s</td>\n" % text.html())
-			self.__output.write("</tr>\n")
-		self.__output.write("</table>\n")
+				self.__output.write("\t%s" % text.html())
+			self.__output.write("\n")
 	
 	def __break_p(self, row):
 		if len(row) != 1 and not re.match(r"Table [0-9]+-[0-9]+\.", row[0].contents.value): return True
@@ -532,27 +526,26 @@ class DocumentWriter(object):
 		c.append(b)
 		return c
 	
-	def save(self, name_func):
+	def save(self, name_func, cur):
 		self.write([])
 		filename = self.title.split(u"—")[0].replace("/", ":").strip()
 		path = "html/" + name_func(filename)
 		print "Saving to", path
-		with open(path, "wb") as fd:
-			fd.write("<!DOCTYPE html>\n")
-			fd.write("<html>\n")
-			fd.write("<head>\n")
-			fd.write('\t<meta charset="UTF-8"/>\n')
-			fd.write('\t<link rel="stylesheet" type="text/css" href="style.css"/>\n')
-			fd.write(("\t<title>%s</title>\n" % self.title).encode("UTF-8"))
-			fd.write("</head>\n")
-			fd.write("<body>\n")
-			fd.write(self.__output.getvalue().encode("UTF-8"))
-			fd.write("</body>\n</html>\n")
 
+		data = self.__output.getvalue().replace("\t", " " * 4).replace(u"≠", "!=").replace(u"—", " - ").encode("UTF-8")
+
+		cur.execute("INSERT INTO instructions VALUES (?, ?, ?)", ("x86", filename, data))
+			
 if __name__ == "__main__":
 	if len(sys.argv) < 2:
 		print "usage: %s file [file...]" % sys.argv[0]
 	
+	con = sq.connect("asm.sqlite")
+	con.text_factory = str
+	cur = con.cursor()
+	cur.execute("CREATE TABLE IF NOT EXISTS instructions (platform TEXT, mnem TEXT, description TEXT)")
+	con.commit()
+
 	names = set()
 	def namer(filename):
 		i = 1
@@ -569,8 +562,11 @@ if __name__ == "__main__":
 		output = DocumentWriter()
 		for row in input.all_rows():
 			if not output.write(row):
-				output.save(namer)
+				output.save(namer, cur)
 				output = DocumentWriter()
 				output.write(row)
 
-		output.save(namer)
+		output.save(namer, cur)
+
+	con.commit()
+	con.close()
