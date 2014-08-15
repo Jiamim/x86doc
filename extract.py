@@ -169,7 +169,7 @@ class AttributedString(object):
 					tag_stack.append(tag)
 
 		html += self.value[string_index:]
-		return html
+		return cleanup_html(html)
 
 class TextCell(object):
 	def __init__(self, page, x, y, style, contents, x_approx = False):
@@ -313,6 +313,27 @@ class UglyDocument(object):
 			last_y = cell.y
 		yield row
 
+def break_paragraph(text, width=80, doJoin=True):
+	rows = []
+
+	while(len(text) > 0):
+		nextBreak = text.find(" ", width-5)
+
+		if(nextBreak == -1):
+			rows.append(text)
+			text = ""
+
+		rows.append(text[0:nextBreak])
+		text = text[nextBreak+1:]
+
+	if(doJoin):
+		return "\n".join(rows)
+	else:
+		return rows
+
+def cleanup_html(text):
+	return text.replace("<em>", "").replace("</em>", "").replace("<strong>", "").replace("</strong>", "")
+
 class DocumentWriter(object):
 	def __init__(self):
 		self.title = ""
@@ -320,13 +341,13 @@ class DocumentWriter(object):
 		self.__output_mode_data = {}
 		self.__output = StringIO()
 		self.__spaced_chars = set([c for c in ".,;:)"])
-	
+
 	def write(self, row):
 		if self.__output_mode == "p":
 			if self.__break_p(row):
 				text = self.__output_mode_data["contents"] 
 				if self.__output_mode_data["color"] == [0,0,0]:
-					self.__output.write("%s\n\n" % text.html())
+					self.__output.write("%s\n\n" % break_paragraph(cleanup_html(text.html())))
 				else:
 					text = text.value
 					lowered = text.lower()
@@ -363,13 +384,12 @@ class DocumentWriter(object):
 		elif self.__output_mode == "list":
 			if self.__break_list(row):
 				if len(self.__output_mode_data["contents"].value) != 0:
-					self.__output.write("\t<li>%s</li>\n" % self.__output_mode_data["contents"].html())
-				self.__output.write("</ul>\n")
+					self.__output.write(" - %s\n" % break_paragraph(self.__output_mode_data["contents"].html()))
 				self.__output_mode = None
 				return self.write(row)
 			
 			if row[0].contents.value == u"•" and len(self.__output_mode_data["contents"].value) != 0:
-				self.__output.write("\t<li>%s</li>\n" % self.__output_mode_data["contents"].html())
+				self.__output.write(" - %s\n" % break_paragraph(self.__output_mode_data["contents"].html()))
 				self.__output_mode_data["contents"] = AttributedString("")
 			
 			for cell in row:
@@ -442,7 +462,6 @@ class DocumentWriter(object):
 						return True
 			else:
 				if row[0].contents.value == u"•":
-					self.__output.write("<ul>\n")
 					self.__output_mode = "list"
 					self.__output_mode_data = {"indent": row[1].x, "contents": AttributedString("")}
 					return self.write(row)
@@ -478,10 +497,54 @@ class DocumentWriter(object):
 			else:
 				i += 1
 		
-		for row in row_data: 
+		col_sizes = []
+		textBuffer = []
+		for text in row_data[0]:
+			col_sizes.append(0)
+
+		r = 0
+		for row in row_data:
+			textBuffer.append([])
 			for text in row:
-				self.__output.write("\t%s" % text.html())
-			self.__output.write("\n")
+				textBuffer[r].append(break_paragraph(text.html(), 40, False))
+			r += 1
+
+		def calcMaxLen(lines):
+			size = 0
+			for l in lines:
+				size = max(size, len(l))
+
+			return size
+
+		# calculate sizes
+		r = 0
+		for row in row_data:
+			col = 0
+			for text in row:
+				col_sizes[col] = max(col_sizes[col], calcMaxLen(textBuffer[r][col]))
+				col += 1
+			r += 1
+
+		row_sep = "+-" + "-+-".join(["-" * s for s in col_sizes]) + "-+"
+
+		for row in textBuffer:
+			moreLines = True
+
+			while(moreLines):
+				col = 0
+				doMore = False
+				for text in row:
+					if(len(text) > 0):
+						txt = text.pop(0)
+						self.__output.write("| %s" % txt.ljust(col_sizes[col], ' '))
+					else:
+						self.__output.write("| %s" % " ".ljust(col_sizes[col], ' '))
+
+					doMore = doMore or (len(text) > 0)
+					col += 1
+
+				self.__output.write("\n")
+				moreLines = doMore
 	
 	def __break_p(self, row):
 		if len(row) != 1 and not re.match(r"Table [0-9]+-[0-9]+\.", row[0].contents.value): return True
@@ -529,8 +592,7 @@ class DocumentWriter(object):
 	def save(self, name_func, cur):
 		self.write([])
 		filename = self.title.split(u"—")[0].replace("/", ":").strip()
-		path = "html/" + name_func(filename)
-		print "Saving to", path
+		print "Processing %s" % filename
 
 		data = self.__output.getvalue().replace("\t", " " * 4).replace(u"≠", "!=").replace(u"—", " - ").encode("UTF-8")
 
