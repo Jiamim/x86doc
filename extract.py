@@ -322,9 +322,9 @@ def break_paragraph(text, width=80, doJoin=True):
 		if(nextBreak == -1):
 			rows.append(text)
 			text = ""
-
-		rows.append(text[0:nextBreak])
-		text = text[nextBreak+1:]
+		else:
+			rows.append(text[0:nextBreak])
+			text = text[nextBreak+1:]
 
 	if(doJoin):
 		return "\n".join(rows)
@@ -385,6 +385,7 @@ class DocumentWriter(object):
 			if self.__break_list(row):
 				if len(self.__output_mode_data["contents"].value) != 0:
 					self.__output.write(" - %s\n" % break_paragraph(self.__output_mode_data["contents"].html()))
+				self.__output.write("\n")
 				self.__output_mode = None
 				return self.write(row)
 			
