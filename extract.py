@@ -332,7 +332,10 @@ def break_paragraph(text, width=80, doJoin=True):
 		return rows
 
 def cleanup_html(text):
-	return text.replace("<em>", "").replace("</em>", "").replace("<strong>", "").replace("</strong>", "")
+	for r in ["<em>", "</em>", "<strong>", "</strong>", "<sup>", "</sup>"]:
+		text = text.replace(r, "")
+
+	return text
 
 class DocumentWriter(object):
 	def __init__(self):
@@ -592,12 +595,19 @@ class DocumentWriter(object):
 	
 	def save(self, name_func, cur):
 		self.write([])
-		filename = self.title.split(u"—")[0].replace("/", ":").strip()
-		print "Processing %s" % filename
+		instruction = self.title.split(u"—")[0].split("-")[0].strip()
+		print "Processing %s" % instruction
 
-		data = self.__output.getvalue().replace("\t", " " * 4).replace(u"≠", "!=").replace(u"—", " - ").encode("UTF-8")
+		data = self.__output.getvalue().replace("\t", " " * 4).replace(u"≠", "!=").replace(u"—", " - ").replace(u"’", "'").replace(u"∗", "*").encode("UTF-8")
 
-		cur.execute("INSERT INTO instructions VALUES (?, ?, ?)", ("x86", filename, data))
+		first_inst = None
+		for inst in instruction.split("/"):
+			if(first_inst == None):
+				first_inst = inst
+				cur.execute("INSERT INTO instructions VALUES (?, ?, ?)", ("x86", inst, data))
+			else:
+				cur.execute("INSERT INTO instructions VALUES (?, ?, ?)", ("x86", inst, "-R:%s" % first_inst))
+				print "\t-R:%s" % first_inst
 			
 if __name__ == "__main__":
 	if len(sys.argv) < 2:
