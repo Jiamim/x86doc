@@ -1572,9 +1572,9 @@ C6.6.15     ASR (register)
 
                 This instruction is an alias of the ASRV instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of ASRV.
+                .      The encodings in this description are named to match the encodings of ASRV.
 
-                ·      The description of ASRV gives the operational pseudocode for this instruction.
+                .      The description of ASRV gives the operational pseudocode for this instruction.
 
 
 
@@ -1647,9 +1647,9 @@ C6.6.16        ASR (immediate)
 
                        This instruction is an alias of the SBFM instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of SBFM.
+                       .       The encodings in this description are named to match the encodings of SBFM.
 
-                       ·       The description of SBFM gives the operational pseudocode for this instruction.
+                       .       The description of SBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -1793,9 +1793,9 @@ C6.6.18        AT
 
                        This instruction is an alias of the SYS instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of SYS.
+                       .       The encodings in this description are named to match the encodings of SYS.
 
-                       ·       The description of SYS gives the operational pseudocode for this instruction.
+                       .       The description of SYS gives the operational pseudocode for this instruction.
 
 
 
@@ -1968,9 +1968,9 @@ C6.6.21     BFI
 
                 This instruction is an alias of the BFM instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of BFM.
+                .      The encodings in this description are named to match the encodings of BFM.
 
-                ·      The description of BFM gives the operational pseudocode for this instruction.
+                .      The description of BFM gives the operational pseudocode for this instruction.
 
 
 
@@ -2168,9 +2168,9 @@ C6.6.23        BFXIL
 
                        This instruction is an alias of the BFM instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of BFM.
+                       .       The encodings in this description are named to match the encodings of BFM.
 
-                       ·       The description of BFM gives the operational pseudocode for this instruction.
+                       .       The description of BFM gives the operational pseudocode for this instruction.
 
 
 
@@ -3105,9 +3105,9 @@ C6.6.36     CINC
 
                 This instruction is an alias of the CSINC instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of CSINC.
+                .      The encodings in this description are named to match the encodings of CSINC.
 
-                ·      The description of CSINC gives the operational pseudocode for this instruction.
+                .      The description of CSINC gives the operational pseudocode for this instruction.
 
 
 
@@ -3177,9 +3177,9 @@ C6.6.37        CINV
 
                        This instruction is an alias of the CSINV instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of CSINV.
+                       .       The encodings in this description are named to match the encodings of CSINV.
 
-                       ·       The description of CSINV gives the operational pseudocode for this instruction.
+                       .       The description of CSINV gives the operational pseudocode for this instruction.
 
 
 
@@ -3430,9 +3430,9 @@ C6.6.41        CMN (extended register)
 
                        This instruction is an alias of the ADDS (extended register) instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of ADDS (extended register).
+                       .       The encodings in this description are named to match the encodings of ADDS (extended register).
 
-                       ·       The description of ADDS (extended register) gives the operational pseudocode for this instruction.
+                       .       The description of ADDS (extended register) gives the operational pseudocode for this instruction.
 
 
 
@@ -3573,9 +3573,9 @@ C6.6.42        CMN (immediate)
 
                        This instruction is an alias of the ADDS (immediate) instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of ADDS (immediate).
+                       .       The encodings in this description are named to match the encodings of ADDS (immediate).
 
-                       ·       The description of ADDS (immediate) gives the operational pseudocode for this instruction.
+                       .       The description of ADDS (immediate) gives the operational pseudocode for this instruction.
 
 
 
@@ -3649,9 +3649,9 @@ C6.6.43     CMN (shifted register)
 
                 This instruction is an alias of the ADDS (shifted register) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of ADDS (shifted register).
+                .      The encodings in this description are named to match the encodings of ADDS (shifted register).
 
-                ·      The description of ADDS (shifted register) gives the operational pseudocode for this instruction.
+                .      The description of ADDS (shifted register) gives the operational pseudocode for this instruction.
 
 
 
@@ -3745,9 +3745,9 @@ C6.6.44     CMP (extended register)
 
                 This instruction is an alias of the SUBS (extended register) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SUBS (extended register).
+                .      The encodings in this description are named to match the encodings of SUBS (extended register).
 
-                ·      The description of SUBS (extended register) gives the operational pseudocode for this instruction.
+                .      The description of SUBS (extended register) gives the operational pseudocode for this instruction.
 
 
 
@@ -3888,9 +3888,9 @@ C6.6.45     CMP (immediate)
 
                 This instruction is an alias of the SUBS (immediate) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SUBS (immediate).
+                .      The encodings in this description are named to match the encodings of SUBS (immediate).
 
-                ·      The description of SUBS (immediate) gives the operational pseudocode for this instruction.
+                .      The description of SUBS (immediate) gives the operational pseudocode for this instruction.
 
 
 
@@ -3964,9 +3964,9 @@ C6.6.46        CMP (shifted register)
 
                        This instruction is an alias of the SUBS (shifted register) instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of SUBS (shifted register).
+                       .       The encodings in this description are named to match the encodings of SUBS (shifted register).
 
-                       ·       The description of SUBS (shifted register) gives the operational pseudocode for this instruction.
+                       .       The description of SUBS (shifted register) gives the operational pseudocode for this instruction.
 
 
 
@@ -4060,9 +4060,9 @@ C6.6.47        CNEG
 
                        This instruction is an alias of the CSNEG instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of CSNEG.
+                       .       The encodings in this description are named to match the encodings of CSNEG.
 
-                       ·       The description of CSNEG gives the operational pseudocode for this instruction.
+                       .       The description of CSNEG gives the operational pseudocode for this instruction.
 
 
 
@@ -4410,9 +4410,9 @@ C6.6.51        CSET
 
                        This instruction is an alias of the CSINC instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of CSINC.
+                       .       The encodings in this description are named to match the encodings of CSINC.
 
-                       ·       The description of CSINC gives the operational pseudocode for this instruction.
+                       .       The description of CSINC gives the operational pseudocode for this instruction.
 
 
 
@@ -4478,9 +4478,9 @@ C6.6.52     CSETM
 
                 This instruction is an alias of the CSINV instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of CSINV.
+                .      The encodings in this description are named to match the encodings of CSINV.
 
-                ·      The description of CSINV gives the operational pseudocode for this instruction.
+                .      The description of CSINV gives the operational pseudocode for this instruction.
 
 
 
@@ -4857,9 +4857,9 @@ C6.6.56        DC
 
                        This instruction is an alias of the SYS instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of SYS.
+                       .       The encodings in this description are named to match the encodings of SYS.
 
-                       ·       The description of SYS gives the operational pseudocode for this instruction.
+                       .       The description of SYS gives the operational pseudocode for this instruction.
 
 
 
@@ -6060,9 +6060,9 @@ C6.6.71        IC
 
                        This instruction is an alias of the SYS instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of SYS.
+                       .       The encodings in this description are named to match the encodings of SYS.
 
-                       ·       The description of SYS gives the operational pseudocode for this instruction.
+                       .       The description of SYS gives the operational pseudocode for this instruction.
 
 
 
@@ -8573,9 +8573,9 @@ C6.6.85        LDR (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
                        <m>             Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                        field.
@@ -8604,9 +8604,9 @@ C6-538                                   Copyright © 2013, 2014 ARM Limited. All
 
                               It is RESERVED when:
 
-                              ·      option = 00x.
+                              .      option = 00x.
 
-                              ·      option = 10x.
+                              .      option = 10x.
 
                 <amount>      For the 32-bit variant: is the index shift amount, optional and defaulting to #0 when <extend> is not
                               LSL, encoded in the "S" field. It can have the following values:
@@ -8989,9 +8989,9 @@ C6.6.87        LDRB (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
                        <m>             Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                        field.
@@ -9009,9 +9009,9 @@ C6.6.87        LDRB (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
                        <amount>        Is the index shift amount, optional and defaulting to #0 when <extend> is not LSL, encoded in the
                                        "S" field. It can have the following values:
@@ -9402,9 +9402,9 @@ C6.6.89        LDRH (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
                        <m>             Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                        field.
@@ -9422,9 +9422,9 @@ C6.6.89        LDRH (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
 
 
@@ -9849,9 +9849,9 @@ C6.6.91        LDRSB (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
                        <m>             Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                        field.
@@ -9880,9 +9880,9 @@ C6-556                                   Copyright © 2013, 2014 ARM Limited. All
 
                               It is RESERVED when:
 
-                              ·      option = 00x.
+                              .      option = 00x.
 
-                              ·      option = 10x.
+                              .      option = 10x.
 
                 <amount>      Is the index shift amount, optional and defaulting to #0 when <extend> is not LSL, encoded in the
                               "S" field. It can have the following values:
@@ -10297,9 +10297,9 @@ C6.6.93        LDRSH (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
                        <m>             Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                        field.
@@ -10328,9 +10328,9 @@ C6-562                                   Copyright © 2013, 2014 ARM Limited. All
 
                               It is RESERVED when:
 
-                              ·      option = 00x.
+                              .      option = 00x.
 
-                              ·      option = 10x.
+                              .      option = 10x.
 
                 <amount>      Is the index shift amount, optional and defaulting to #0 when <extend> is not LSL, encoded in the
                               "S" field. It can have the following values:
@@ -10783,9 +10783,9 @@ C6.6.96     LDRSW (register)
 
                                 It is RESERVED when:
 
-                                ·      option = 00x.
+                                .      option = 00x.
 
-                                ·      option = 10x.
+                                .      option = 10x.
 
                 <m>             Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                 field.
@@ -10803,9 +10803,9 @@ C6.6.96     LDRSW (register)
 
                                 It is RESERVED when:
 
-                                ·      option = 00x.
+                                .      option = 00x.
 
-                                ·      option = 10x.
+                                .      option = 10x.
 
                 <amount>        Is the index shift amount, optional and defaulting to #0 when <extend> is not LSL, encoded in the
                                 "S" field. It can have the following values:
@@ -13569,9 +13569,9 @@ C6.6.113       LSL (register)
 
                        This instruction is an alias of the LSLV instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of LSLV.
+                       .       The encodings in this description are named to match the encodings of LSLV.
 
-                       ·       The description of LSLV gives the operational pseudocode for this instruction.
+                       .       The description of LSLV gives the operational pseudocode for this instruction.
 
 
 
@@ -13644,9 +13644,9 @@ C6.6.114    LSL (immediate)
 
                 This instruction is an alias of the UBFM instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of UBFM.
+                .      The encodings in this description are named to match the encodings of UBFM.
 
-                ·      The description of UBFM gives the operational pseudocode for this instruction.
+                .      The description of UBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -13790,9 +13790,9 @@ C6.6.116    LSR (register)
 
                 This instruction is an alias of the LSRV instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of LSRV.
+                .      The encodings in this description are named to match the encodings of LSRV.
 
-                ·      The description of LSRV gives the operational pseudocode for this instruction.
+                .      The description of LSRV gives the operational pseudocode for this instruction.
 
 
 
@@ -13865,9 +13865,9 @@ C6.6.117       LSR (immediate)
 
                        This instruction is an alias of the UBFM instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of UBFM.
+                       .       The encodings in this description are named to match the encodings of UBFM.
 
-                       ·       The description of UBFM gives the operational pseudocode for this instruction.
+                       .       The description of UBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -14121,9 +14121,9 @@ C6.6.120       MNEG
 
                        This instruction is an alias of the MSUB instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of MSUB.
+                       .       The encodings in this description are named to match the encodings of MSUB.
 
-                       ·       The description of MSUB gives the operational pseudocode for this instruction.
+                       .       The description of MSUB gives the operational pseudocode for this instruction.
 
 
 
@@ -14198,9 +14198,9 @@ C6.6.121    MOV (to/from SP)
 
                 This instruction is an alias of the ADD (immediate) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of ADD (immediate).
+                .      The encodings in this description are named to match the encodings of ADD (immediate).
 
-                ·      The description of ADD (immediate) gives the operational pseudocode for this instruction.
+                .      The description of ADD (immediate) gives the operational pseudocode for this instruction.
 
 
 
@@ -14269,9 +14269,9 @@ C6.6.122       MOV (inverted wide immediate)
 
                        This instruction is an alias of the MOVN instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of MOVN.
+                       .       The encodings in this description are named to match the encodings of MOVN.
 
-                       ·       The description of MOVN gives the operational pseudocode for this instruction.
+                       .       The description of MOVN gives the operational pseudocode for this instruction.
 
 
 
@@ -14346,9 +14346,9 @@ C6.6.123    MOV (wide immediate)
 
                 This instruction is an alias of the MOVZ instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of MOVZ.
+                .      The encodings in this description are named to match the encodings of MOVZ.
 
-                ·      The description of MOVZ gives the operational pseudocode for this instruction.
+                .      The description of MOVZ gives the operational pseudocode for this instruction.
 
 
 
@@ -14421,9 +14421,9 @@ C6.6.124       MOV (bitmask immediate)
 
                        This instruction is an alias of the ORR (immediate) instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of ORR (immediate).
+                       .       The encodings in this description are named to match the encodings of ORR (immediate).
 
-                       ·       The description of ORR (immediate) gives the operational pseudocode for this instruction.
+                       .       The description of ORR (immediate) gives the operational pseudocode for this instruction.
 
 
 
@@ -14491,9 +14491,9 @@ C6.6.125    MOV (register)
 
                 This instruction is an alias of the ORR (shifted register) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of ORR (shifted register).
+                .      The encodings in this description are named to match the encodings of ORR (shifted register).
 
-                ·      The description of ORR (shifted register) gives the operational pseudocode for this instruction.
+                .      The description of ORR (shifted register) gives the operational pseudocode for this instruction.
 
 
 
@@ -14967,21 +14967,21 @@ C6.6.130    MSR (immediate)
 
                               It is RESERVED when:
 
-                              ·      op1 = 000, op2 = 0xx.
+                              .      op1 = 000, op2 = 0xx.
 
-                              ·      op1 = 000, op2 = 100.
+                              .      op1 = 000, op2 = 100.
 
-                              ·      op1 = 000, op2 = 11x.
+                              .      op1 = 000, op2 = 11x.
 
-                              ·      op1 = 001, op2 = xxx.
+                              .      op1 = 001, op2 = xxx.
 
-                              ·      op1 = 010, op2 = xxx.
+                              .      op1 = 010, op2 = xxx.
 
-                              ·      op1 = 011, op2 = 0xx.
+                              .      op1 = 011, op2 = 0xx.
 
-                              ·      op1 = 011, op2 = 10x.
+                              .      op1 = 011, op2 = 10x.
 
-                              ·      op1 = 1xx, op2 = xxx.
+                              .      op1 = 1xx, op2 = xxx.
 
                 <imm>         Is a 4-bit unsigned immediate, in the range 0 to 15, encoded in the "CRm" field.
 
@@ -15197,9 +15197,9 @@ C6.6.133       MUL
 
                        This instruction is an alias of the MADD instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of MADD.
+                       .       The encodings in this description are named to match the encodings of MADD.
 
-                       ·       The description of MADD gives the operational pseudocode for this instruction.
+                       .       The description of MADD gives the operational pseudocode for this instruction.
 
 
 
@@ -15274,9 +15274,9 @@ C6.6.134    MVN
 
                 This instruction is an alias of the ORN (shifted register) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of ORN (shifted register).
+                .      The encodings in this description are named to match the encodings of ORN (shifted register).
 
-                ·      The description of ORN (shifted register) gives the operational pseudocode for this instruction.
+                .      The description of ORN (shifted register) gives the operational pseudocode for this instruction.
 
 
 
@@ -15370,9 +15370,9 @@ C6.6.135    NEG (shifted register)
 
                 This instruction is an alias of the SUB (shifted register) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SUB (shifted register).
+                .      The encodings in this description are named to match the encodings of SUB (shifted register).
 
-                ·      The description of SUB (shifted register) gives the operational pseudocode for this instruction.
+                .      The description of SUB (shifted register) gives the operational pseudocode for this instruction.
 
 
 
@@ -15466,9 +15466,9 @@ C6.6.136    NEGS
 
                 This instruction is an alias of the SUBS (shifted register) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SUBS (shifted register).
+                .      The encodings in this description are named to match the encodings of SUBS (shifted register).
 
-                ·      The description of SUBS (shifted register) gives the operational pseudocode for this instruction.
+                .      The description of SUBS (shifted register) gives the operational pseudocode for this instruction.
 
 
 
@@ -15562,9 +15562,9 @@ C6.6.137    NGC
 
                 This instruction is an alias of the SBC instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SBC.
+                .      The encodings in this description are named to match the encodings of SBC.
 
-                ·      The description of SBC gives the operational pseudocode for this instruction.
+                .      The description of SBC gives the operational pseudocode for this instruction.
 
 
 
@@ -15631,9 +15631,9 @@ C6.6.138       NGCS
 
                        This instruction is an alias of the SBCS instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of SBCS.
+                       .       The encodings in this description are named to match the encodings of SBCS.
 
-                       ·       The description of SBCS gives the operational pseudocode for this instruction.
+                       .       The description of SBCS gives the operational pseudocode for this instruction.
 
 
 
@@ -15700,9 +15700,9 @@ C6.6.139    NOP
 
                 This instruction is an alias of the HINT instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of HINT.
+                .      The encodings in this description are named to match the encodings of HINT.
 
-                ·      The description of HINT gives the operational pseudocode for this instruction.
+                .      The description of HINT gives the operational pseudocode for this instruction.
 
 
 
@@ -16531,9 +16531,9 @@ C6.6 Alphabetical list of instructions
 
                                         It is RESERVED when:
 
-                                        ·      option = 00x.
+                                        .      option = 00x.
 
-                                        ·      option = 10x.
+                                        .      option = 10x.
 
                        <m>              Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                         field.
@@ -16551,9 +16551,9 @@ C6.6 Alphabetical list of instructions
 
                                         It is RESERVED when:
 
-                                        ·      option = 00x.
+                                        .      option = 00x.
 
-                                        ·      option = 10x.
+                                        .      option = 10x.
 
                        <amount>         Is the index shift amount, optional and defaulting to #0 when <extend> is not LSL, encoded in the
                                         "S" field. It can have the following values:
@@ -17328,9 +17328,9 @@ C6.6.152    ROR (immediate)
 
                 This instruction is an alias of the EXTR instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of EXTR.
+                .      The encodings in this description are named to match the encodings of EXTR.
 
-                ·      The description of EXTR gives the operational pseudocode for this instruction.
+                .      The description of EXTR gives the operational pseudocode for this instruction.
 
 
 
@@ -17404,9 +17404,9 @@ C6.6.153       ROR (register)
 
                        This instruction is an alias of the RORV instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of RORV.
+                       .       The encodings in this description are named to match the encodings of RORV.
 
-                       ·       The description of RORV gives the operational pseudocode for this instruction.
+                       .       The description of RORV gives the operational pseudocode for this instruction.
 
 
 
@@ -17754,9 +17754,9 @@ C6.6.157       SBFIZ
 
                        This instruction is an alias of the SBFM instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of SBFM.
+                       .       The encodings in this description are named to match the encodings of SBFM.
 
-                       ·       The description of SBFM gives the operational pseudocode for this instruction.
+                       .       The description of SBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -17964,9 +17964,9 @@ C6.6.159    SBFX
 
                 This instruction is an alias of the SBFM instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SBFM.
+                .      The encodings in this description are named to match the encodings of SBFM.
 
-                ·      The description of SBFM gives the operational pseudocode for this instruction.
+                .      The description of SBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -18139,9 +18139,9 @@ C6.6.161       SEV
 
                        This instruction is an alias of the HINT instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of HINT.
+                       .       The encodings in this description are named to match the encodings of HINT.
 
-                       ·       The description of HINT gives the operational pseudocode for this instruction.
+                       .       The description of HINT gives the operational pseudocode for this instruction.
 
 
 
@@ -18183,9 +18183,9 @@ C6.6.162    SEVL
 
                 This instruction is an alias of the HINT instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of HINT.
+                .      The encodings in this description are named to match the encodings of HINT.
 
-                ·      The description of HINT gives the operational pseudocode for this instruction.
+                .      The description of HINT gives the operational pseudocode for this instruction.
 
 
 
@@ -18372,9 +18372,9 @@ C6.6.165    SMNEGL
 
                 This instruction is an alias of the SMSUBL instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SMSUBL.
+                .      The encodings in this description are named to match the encodings of SMSUBL.
 
-                ·      The description of SMSUBL gives the operational pseudocode for this instruction.
+                .      The description of SMSUBL gives the operational pseudocode for this instruction.
 
 
 
@@ -18581,9 +18581,9 @@ C6.6.168    SMULL
 
                 This instruction is an alias of the SMADDL instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SMADDL.
+                .      The encodings in this description are named to match the encodings of SMADDL.
 
-                ·      The description of SMADDL gives the operational pseudocode for this instruction.
+                .      The description of SMADDL gives the operational pseudocode for this instruction.
 
 
 
@@ -19293,16 +19293,16 @@ C6.6 Alphabetical list of instructions
 
                        If a synchronous Data Abort exception is generated by the execution of this instruction:
 
-                       ·       Memory is not updated.
+                       .       Memory is not updated.
 
-                       ·       <Ws> is not updated.
+                       .       <Ws> is not updated.
 
                        Accessing an address that is not aligned to the size of the data being accessed causes an Alignment fault Data Abort
                        exception to be generated, subject to the following rules:
 
-                       ·       If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
+                       .       If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
 
-                       ·       Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
+                       .       Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
 
                        If AArch64.ExclusiveMonitorsPass() returns FALSE and the memory address, if accessed, would generate a
                        synchronous Data Abort exception, it is IMPLEMENTATION DEFINED whether the exception is generated.
@@ -19523,16 +19523,16 @@ C6-704                                   Copyright © 2013, 2014 ARM Limited. All
 
                 If a synchronous Data Abort exception is generated by the execution of this instruction:
 
-                ·      Memory is not updated.
+                .      Memory is not updated.
 
-                ·      <Ws> is not updated.
+                .      <Ws> is not updated.
 
                 Accessing an address that is not aligned to the size of the data being accessed causes an Alignment fault Data Abort
                 exception to be generated, subject to the following rules:
 
-                ·      If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
+                .      If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
 
-                ·      Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
+                .      Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
 
                 If AArch64.ExclusiveMonitorsPass() returns FALSE and the memory address, if accessed, would generate a
                 synchronous Data Abort exception, it is IMPLEMENTATION DEFINED whether the exception is generated.
@@ -19734,9 +19734,9 @@ C6.6.174    STLXRB
 
                 If a synchronous Data Abort exception is generated by the execution of this instruction:
 
-                ·      Memory is not updated.
+                .      Memory is not updated.
 
-                ·      <Ws> is not updated.
+                .      <Ws> is not updated.
 
 
 
@@ -19948,9 +19948,9 @@ C6.6.175       STLXRH
 
                        If a synchronous Data Abort exception is generated by the execution of this instruction:
 
-                       ·       Memory is not updated.
+                       .       Memory is not updated.
 
-                       ·       <Ws> is not updated.
+                       .       <Ws> is not updated.
 
 
 
@@ -19966,9 +19966,9 @@ C6-710                                    Copyright © 2013, 2014 ARM Limited. Al
                 A non halfword-aligned memory address causes an Alignment fault Data Abort exception to be generated, subject
                 to the following rules:
 
-                ·      If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
+                .      If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
 
-                ·      Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
+                .      Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
 
                 If AArch64.ExclusiveMonitorsPass() returns FALSE and the memory address, if accessed, would generate a
                 synchronous Data Abort exception, it is IMPLEMENTATION DEFINED whether the exception is generated.
@@ -20799,9 +20799,9 @@ C6.6.179       STR (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
                        <m>             Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                        field.
@@ -20829,9 +20829,9 @@ C6-722                                   Copyright © 2013, 2014 ARM Limited. All
 
                               It is RESERVED when:
 
-                              ·      option = 00x.
+                              .      option = 00x.
 
-                              ·      option = 10x.
+                              .      option = 10x.
 
                 <amount>      For the 32-bit variant: is the index shift amount, optional and defaulting to #0 when <extend> is not
                               LSL, encoded in the "S" field. It can have the following values:
@@ -21217,9 +21217,9 @@ C6.6.181       STRB (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
                        <m>             Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                        field.
@@ -21237,9 +21237,9 @@ C6.6.181       STRB (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
 
 
@@ -21629,9 +21629,9 @@ C6.6.183       STRH (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
                        <m>             Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                        field.
@@ -21649,9 +21649,9 @@ C6.6.183       STRH (register)
 
                                        It is RESERVED when:
 
-                                       ·      option = 00x.
+                                       .      option = 00x.
 
-                                       ·      option = 10x.
+                                       .      option = 10x.
 
 
 
@@ -22787,16 +22787,16 @@ C6.6 Alphabetical list of instructions
 
                        If a synchronous Data Abort exception is generated by the execution of this instruction:
 
-                       ·       Memory is not updated.
+                       .       Memory is not updated.
 
-                       ·       <Ws> is not updated.
+                       .       <Ws> is not updated.
 
                        Accessing an address that is not aligned to the size of the data being accessed causes an Alignment fault Data Abort
                        exception to be generated, subject to the following rules:
 
-                       ·       If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
+                       .       If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
 
-                       ·       Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
+                       .       Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
 
                        If AArch64.ExclusiveMonitorsPass() returns FALSE and the memory address, if accessed, would generate a
                        synchronous Data Abort exception, it is IMPLEMENTATION DEFINED whether the exception is generated.
@@ -23016,16 +23016,16 @@ C6-752                                   Copyright © 2013, 2014 ARM Limited. All
 
                 If a synchronous Data Abort exception is generated by the execution of this instruction:
 
-                ·      Memory is not updated.
+                .      Memory is not updated.
 
-                ·      <Ws> is not updated.
+                .      <Ws> is not updated.
 
                 Accessing an address that is not aligned to the size of the data being accessed causes an Alignment fault Data Abort
                 exception to be generated, subject to the following rules:
 
-                ·      If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
+                .      If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
 
-                ·      Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
+                .      Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
 
                 If AArch64.ExclusiveMonitorsPass() returns FALSE and the memory address, if accessed, would generate a
                 synchronous Data Abort exception, it is IMPLEMENTATION DEFINED whether the exception is generated.
@@ -23226,9 +23226,9 @@ C6.6.192    STXRB
 
                 If a synchronous Data Abort exception is generated by the execution of this instruction:
 
-                ·      Memory is not updated.
+                .      Memory is not updated.
 
-                ·      <Ws> is not updated.
+                .      <Ws> is not updated.
 
 
 
@@ -23434,16 +23434,16 @@ C6.6.193       STXRH
 
                        If a synchronous Data Abort exception is generated by the execution of this instruction:
 
-                       ·       Memory is not updated.
+                       .       Memory is not updated.
 
-                       ·       <Ws> is not updated.
+                       .       <Ws> is not updated.
 
                        A non halfword-aligned memory address causes an Alignment fault Data Abort exception to be generated, subject
                        to the following rules:
 
-                       ·       If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
+                       .       If AArch64.ExclusiveMonitorsPass() returns TRUE, the exception is generated.
 
-                       ·       Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
+                       .       Otherwise, it is IMPLEMENTATION DEFINED whether the exception is generated.
 
 
 
@@ -24482,9 +24482,9 @@ C6.6.201    SXTB
 
                 This instruction is an alias of the SBFM instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SBFM.
+                .      The encodings in this description are named to match the encodings of SBFM.
 
-                ·      The description of SBFM gives the operational pseudocode for this instruction.
+                .      The description of SBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -24551,9 +24551,9 @@ C6.6.202       SXTH
 
                        This instruction is an alias of the SBFM instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of SBFM.
+                       .       The encodings in this description are named to match the encodings of SBFM.
 
-                       ·       The description of SBFM gives the operational pseudocode for this instruction.
+                       .       The description of SBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -24620,9 +24620,9 @@ C6.6.203    SXTW
 
                 This instruction is an alias of the SBFM instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SBFM.
+                .      The encodings in this description are named to match the encodings of SBFM.
 
-                ·      The description of SBFM gives the operational pseudocode for this instruction.
+                .      The description of SBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -24961,9 +24961,9 @@ C6.6.208    TLBI
 
                 This instruction is an alias of the SYS instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SYS.
+                .      The encodings in this description are named to match the encodings of SYS.
 
-                ·      The description of SYS gives the operational pseudocode for this instruction.
+                .      The description of SYS gives the operational pseudocode for this instruction.
 
 
 
@@ -25094,9 +25094,9 @@ C6.6.209    TST (immediate)
 
                 This instruction is an alias of the ANDS (immediate) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of ANDS (immediate).
+                .      The encodings in this description are named to match the encodings of ANDS (immediate).
 
-                ·      The description of ANDS (immediate) gives the operational pseudocode for this instruction.
+                .      The description of ANDS (immediate) gives the operational pseudocode for this instruction.
 
 
 
@@ -25161,9 +25161,9 @@ C6.6.210       TST (shifted register)
 
                        This instruction is an alias of the ANDS (shifted register) instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of ANDS (shifted register).
+                       .       The encodings in this description are named to match the encodings of ANDS (shifted register).
 
-                       ·       The description of ANDS (shifted register) gives the operational pseudocode for this instruction.
+                       .       The description of ANDS (shifted register) gives the operational pseudocode for this instruction.
 
 
 
@@ -25257,9 +25257,9 @@ C6.6.211       UBFIZ
 
                        This instruction is an alias of the UBFM instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of UBFM.
+                       .       The encodings in this description are named to match the encodings of UBFM.
 
-                       ·       The description of UBFM gives the operational pseudocode for this instruction.
+                       .       The description of UBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -25469,9 +25469,9 @@ C6.6.213    UBFX
 
                 This instruction is an alias of the UBFM instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of UBFM.
+                .      The encodings in this description are named to match the encodings of UBFM.
 
-                ·      The description of UBFM gives the operational pseudocode for this instruction.
+                .      The description of UBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -25715,9 +25715,9 @@ C6.6.216    UMNEGL
 
                 This instruction is an alias of the UMSUBL instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of UMSUBL.
+                .      The encodings in this description are named to match the encodings of UMSUBL.
 
-                ·      The description of UMSUBL gives the operational pseudocode for this instruction.
+                .      The description of UMSUBL gives the operational pseudocode for this instruction.
 
 
 
@@ -25924,9 +25924,9 @@ C6.6.219    UMULL
 
                 This instruction is an alias of the UMADDL instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of UMADDL.
+                .      The encodings in this description are named to match the encodings of UMADDL.
 
-                ·      The description of UMADDL gives the operational pseudocode for this instruction.
+                .      The description of UMADDL gives the operational pseudocode for this instruction.
 
 
 
@@ -25979,9 +25979,9 @@ C6.6.220       UXTB
 
                        This instruction is an alias of the UBFM instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of UBFM.
+                       .       The encodings in this description are named to match the encodings of UBFM.
 
-                       ·       The description of UBFM gives the operational pseudocode for this instruction.
+                       .       The description of UBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -26030,9 +26030,9 @@ C6.6.221    UXTH
 
                 This instruction is an alias of the UBFM instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of UBFM.
+                .      The encodings in this description are named to match the encodings of UBFM.
 
-                ·      The description of UBFM gives the operational pseudocode for this instruction.
+                .      The description of UBFM gives the operational pseudocode for this instruction.
 
 
 
@@ -26081,9 +26081,9 @@ C6.6.222       WFE
 
                        This instruction is an alias of the HINT instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of HINT.
+                       .       The encodings in this description are named to match the encodings of HINT.
 
-                       ·       The description of HINT gives the operational pseudocode for this instruction.
+                       .       The description of HINT gives the operational pseudocode for this instruction.
 
 
 
@@ -26125,9 +26125,9 @@ C6.6.223    WFI
 
                 This instruction is an alias of the HINT instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of HINT.
+                .      The encodings in this description are named to match the encodings of HINT.
 
-                ·      The description of HINT gives the operational pseudocode for this instruction.
+                .      The description of HINT gives the operational pseudocode for this instruction.
 
 
 
@@ -26169,9 +26169,9 @@ C6.6.224       YIELD
 
                        This instruction is an alias of the HINT instruction. This means that:
 
-                       ·       The encodings in this description are named to match the encodings of HINT.
+                       .       The encodings in this description are named to match the encodings of HINT.
 
-                       ·       The description of HINT gives the operational pseudocode for this instruction.
+                       .       The description of HINT gives the operational pseudocode for this instruction.
 
 
 
@@ -26272,9 +26272,9 @@ C7.3.1         ABS
 
                                          It is RESERVED when:
 
-                                         ·      size = 0x.
+                                         .      size = 0x.
 
-                                         ·      size = 10.
+                                         .      size = 10.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -26403,9 +26403,9 @@ C7.3.2         ADD (vector)
 
                                          It is RESERVED when:
 
-                                         ·      size = 0x.
+                                         .      size = 0x.
 
-                                         ·      size = 10.
+                                         .      size = 10.
 
                        <d>               Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -26638,9 +26638,9 @@ C7.3.4         ADDP (scalar)
 
                                          It is RESERVED when:
 
-                                         ·      size = 0x.
+                                         .      size = 0x.
 
-                                         ·      size = 10.
+                                         .      size = 10.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -26652,9 +26652,9 @@ C7.3.4         ADDP (scalar)
 
                                          It is RESERVED when:
 
-                                         ·      size = 0x.
+                                         .      size = 0x.
 
-                                         ·      size = 10.
+                                         .      size = 10.
 
 
                        Operation
@@ -26821,9 +26821,9 @@ C7.3.6         ADDV
 
                                          It is RESERVED when:
 
-                                         ·      size = 10, Q = 0.
+                                         .      size = 10, Q = 0.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
 
                        Operation
@@ -27878,9 +27878,9 @@ C7.3.19     CMEQ (register)
 
                               It is RESERVED when:
 
-                              ·      size = 0x.
+                              .      size = 0x.
 
-                              ·      size = 10.
+                              .      size = 10.
 
                 <d>           Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -28039,9 +28039,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 0x.
+                                         .      size = 0x.
 
-                                         ·      size = 10.
+                                         .      size = 10.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -28166,9 +28166,9 @@ C7.3.21     CMGE (register)
 
                               It is RESERVED when:
 
-                              ·      size = 0x.
+                              .      size = 0x.
 
-                              ·      size = 10.
+                              .      size = 10.
 
                 <d>           Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -28325,9 +28325,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 0x.
+                                         .      size = 0x.
 
-                                         ·      size = 10.
+                                         .      size = 10.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -28452,9 +28452,9 @@ C7.3.23     CMGT (register)
 
                               It is RESERVED when:
 
-                              ·      size = 0x.
+                              .      size = 0x.
 
-                              ·      size = 10.
+                              .      size = 10.
 
                 <d>           Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -28611,9 +28611,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 0x.
+                                         .      size = 0x.
 
-                                         ·      size = 10.
+                                         .      size = 10.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -28738,9 +28738,9 @@ C7.3.25     CMHI (register)
 
                               It is RESERVED when:
 
-                              ·      size = 0x.
+                              .      size = 0x.
 
-                              ·      size = 10.
+                              .      size = 10.
 
                 <d>           Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -28877,9 +28877,9 @@ C7.3.26     CMHS (register)
 
                               It is RESERVED when:
 
-                              ·      size = 0x.
+                              .      size = 0x.
 
-                              ·      size = 10.
+                              .      size = 10.
 
                 <d>           Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -29037,9 +29037,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 0x.
+                                         .      size = 0x.
 
-                                         ·      size = 10.
+                                         .      size = 10.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -29166,9 +29166,9 @@ C7.3.28     CMLT (zero)
 
                               It is RESERVED when:
 
-                              ·      size = 0x.
+                              .      size = 0x.
 
-                              ·      size = 10.
+                              .      size = 10.
 
                 <d>           Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -29301,9 +29301,9 @@ C7.3.29     CMTST
 
                               It is RESERVED when:
 
-                              ·      size = 0x.
+                              .      size = 0x.
 
-                              ·      size = 10.
+                              .      size = 10.
 
                 <d>           Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -29419,9 +29419,9 @@ C7.3.30     CNT
 
                               It is RESERVED when:
 
-                              ·      size = 01, Q = x.
+                              .      size = 01, Q = x.
 
-                              ·      size = 1x, Q = x.
+                              .      size = 1x, Q = x.
 
                 <Vn>          Is the name of the SIMD&FP source register, encoded in the "Rn" field.
 
@@ -29561,9 +29561,9 @@ C7-858                                     Copyright © 2013, 2014 ARM Limited. A
 
                           It is RESERVED when:
 
-                          ·      imm5 = x0000, Q = x.
+                          .      imm5 = x0000, Q = x.
 
-                          ·      imm5 = x1000, Q = 0.
+                          .      imm5 = x1000, Q = 0.
 
                 <Ts>      Is an element size specifier, encoded in the "imm5" field. It can have the following values:
 
@@ -29697,9 +29697,9 @@ C7.3.32     DUP (general)
 
                               It is RESERVED when:
 
-                              ·      imm5 = x0000, Q = x.
+                              .      imm5 = x0000, Q = x.
 
-                              ·      imm5 = x1000, Q = 0.
+                              .      imm5 = x1000, Q = 0.
 
                 <R>           Is the width specifier for the general-purpose source register, encoded in the "imm5" field. It can
                               have the following values:
@@ -35047,11 +35047,11 @@ C7-942                                     Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      immh = 0001, Q = x.
+                              .      immh = 0001, Q = x.
 
-                              ·      immh = 001x, Q = x.
+                              .      immh = 001x, Q = x.
 
-                              ·      immh = 1xxx, Q = 0.
+                              .      immh = 1xxx, Q = 0.
 
                 <Vn>          Is the name of the SIMD&FP source register, encoded in the "Rn" field.
 
@@ -35075,9 +35075,9 @@ C7-942                                     Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      immh = 0001.
+                              .      immh = 0001.
 
-                              ·      immh = 001x.
+                              .      immh = 001x.
 
 
                 Operation for all encodings
@@ -35595,11 +35595,11 @@ C7-950                                     Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      immh = 0001, Q = x.
+                              .      immh = 0001, Q = x.
 
-                              ·      immh = 001x, Q = x.
+                              .      immh = 001x, Q = x.
 
-                              ·      immh = 1xxx, Q = 0.
+                              .      immh = 1xxx, Q = 0.
 
                 <Vn>          Is the name of the SIMD&FP source register, encoded in the "Rn" field.
 
@@ -35623,9 +35623,9 @@ C7-950                                     Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      immh = 0001.
+                              .      immh = 0001.
 
-                              ·      immh = 001x.
+                              .      immh = 001x.
 
 
                 Operation for all encodings
@@ -36899,9 +36899,9 @@ C7.3.94     FMAXNMV
 
                                It is RESERVED when:
 
-                               ·      Q = 0, sz = x.
+                               .      Q = 0, sz = x.
 
-                               ·      Q = 1, sz = 1.
+                               .      Q = 1, sz = 1.
 
 
                 Operation
@@ -37132,9 +37132,9 @@ C7.3.97     FMAXV
 
                                It is RESERVED when:
 
-                               ·      Q = 0, sz = x.
+                               .      Q = 0, sz = x.
 
-                               ·      Q = 1, sz = 1.
+                               .      Q = 1, sz = 1.
 
 
                 Operation
@@ -37757,9 +37757,9 @@ C7.3.104    FMINNMV
 
                                It is RESERVED when:
 
-                               ·      Q = 0, sz = x.
+                               .      Q = 0, sz = x.
 
-                               ·      Q = 1, sz = 1.
+                               .      Q = 1, sz = 1.
 
 
                 Operation
@@ -37990,9 +37990,9 @@ C7.3.107    FMINV
 
                                It is RESERVED when:
 
-                               ·      Q = 0, sz = x.
+                               .      Q = 0, sz = x.
 
-                               ·      Q = 1, sz = 1.
+                               .      Q = 1, sz = 1.
 
 
                 Operation
@@ -45971,9 +45971,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      option = 00x.
+                                         .      option = 00x.
 
-                                         ·      option = 10x.
+                                         .      option = 10x.
 
                        <m>               Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                                          field.
@@ -45991,9 +45991,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      option = 00x.
+                                         .      option = 00x.
 
-                                         ·      option = 10x.
+                                         .      option = 10x.
 
                        <amount>          For the 8-bit variant: is the index shift amount, optional and defaulting to #0 when <extend> is not
                                          LSL, encoded in the "S" field. It can have the following values:
@@ -46286,9 +46286,9 @@ C7.3.170       MLA (by element)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -46301,9 +46301,9 @@ C7.3.170       MLA (by element)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          Restricted to V0-V15 when element size <Ts> is H.
 
@@ -46324,9 +46324,9 @@ C7-1118                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <index>       Is the element index encoded in the "size:L:H:M" field. It can have the following values:
 
@@ -46336,9 +46336,9 @@ C7-1118                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
 
                 Operation
@@ -46526,9 +46526,9 @@ C7.3.172       MLS (by element)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -46541,9 +46541,9 @@ C7.3.172       MLS (by element)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          Restricted to V0-V15 when element size <Ts> is H.
 
@@ -46564,9 +46564,9 @@ C7-1122                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <index>       Is the element index encoded in the "size:L:H:M" field. It can have the following values:
 
@@ -46576,9 +46576,9 @@ C7-1122                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
 
                 Operation
@@ -46718,9 +46718,9 @@ C7.3.174       MOV (scalar)
 
                        This instruction is an alias of the DUP (element) instruction. This means that:
 
-                       ·        The encodings in this description are named to match the encodings of DUP (element).
+                       .        The encodings in this description are named to match the encodings of DUP (element).
 
-                       ·        The description of DUP (element) gives the operational pseudocode for this instruction.
+                       .        The description of DUP (element) gives the operational pseudocode for this instruction.
 
 
 
@@ -46804,9 +46804,9 @@ C7.3.175    MOV (element)
 
                 This instruction is an alias of the INS (element) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of INS (element).
+                .      The encodings in this description are named to match the encodings of INS (element).
 
-                ·      The description of INS (element) gives the operational pseudocode for this instruction.
+                .      The description of INS (element) gives the operational pseudocode for this instruction.
 
 
 
@@ -46904,9 +46904,9 @@ C7.3.176    MOV (from general)
 
                 This instruction is an alias of the INS (general) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of INS (general).
+                .      The encodings in this description are named to match the encodings of INS (general).
 
-                ·      The description of INS (general) gives the operational pseudocode for this instruction.
+                .      The description of INS (general) gives the operational pseudocode for this instruction.
 
 
 
@@ -47003,9 +47003,9 @@ C7.3.177    MOV (vector)
 
                 This instruction is an alias of the ORR (vector, register) instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of ORR (vector, register).
+                .      The encodings in this description are named to match the encodings of ORR (vector, register).
 
-                ·      The description of ORR (vector, register) gives the operational pseudocode for this instruction.
+                .      The description of ORR (vector, register) gives the operational pseudocode for this instruction.
 
 
 
@@ -47060,9 +47060,9 @@ C7.3.178       MOV (to general)
 
                        This instruction is an alias of the UMOV instruction. This means that:
 
-                       ·        The encodings in this description are named to match the encodings of UMOV.
+                       .        The encodings in this description are named to match the encodings of UMOV.
 
-                       ·        The description of UMOV gives the operational pseudocode for this instruction.
+                       .        The description of UMOV gives the operational pseudocode for this instruction.
 
 
 
@@ -47388,9 +47388,9 @@ C7.3.180       MUL (by element)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -47403,9 +47403,9 @@ C7.3.180       MUL (by element)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          Restricted to V0-V15 when element size <Ts> is H.
 
@@ -47428,9 +47428,9 @@ C7-1136                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <index>       Is the element index encoded in the "size:L:H:M" field. It can have the following values:
 
@@ -47440,9 +47440,9 @@ C7-1136                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
 
                 Operation
@@ -47579,9 +47579,9 @@ C7.3.182       MVN
 
                        This instruction is an alias of the NOT instruction. This means that:
 
-                       ·        The encodings in this description are named to match the encodings of NOT.
+                       .        The encodings in this description are named to match the encodings of NOT.
 
-                       ·        The description of NOT gives the operational pseudocode for this instruction.
+                       .        The description of NOT gives the operational pseudocode for this instruction.
 
 
 
@@ -47852,9 +47852,9 @@ C7.3.184    NEG (vector)
 
                                It is RESERVED when:
 
-                               ·      size = 0x.
+                               .      size = 0x.
 
-                               ·      size = 10.
+                               .      size = 10.
 
                 <d>            Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -48341,9 +48341,9 @@ C7.3.189    PMUL
 
                               It is RESERVED when:
 
-                              ·      size = 01, Q = x.
+                              .      size = 01, Q = x.
 
-                              ·      size = 1x, Q = x.
+                              .      size = 1x, Q = x.
 
                 <Vn>          Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -48446,9 +48446,9 @@ C7.3.190    PMULL, PMULL2
 
                               It is RESERVED when:
 
-                              ·      size = 01.
+                              .      size = 01.
 
-                              ·      size = 10.
+                              .      size = 10.
 
                               The '1Q' arrangement is only allocated in an implementation that includes the Cryptographic
                               Extension, and is otherwise RESERVED.
@@ -48467,7 +48467,7 @@ C7.3.190    PMULL, PMULL2
 
                               It is RESERVED when:
 
-                              ·      size = 01, Q = x.
+                              .      size = 01, Q = x.
 
 
 
@@ -48479,7 +48479,7 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
 
 
-                                         ·      size = 10, Q = x.
+                                         .      size = 10, Q = x.
 
                        <Vm>              Is the name of the second SIMD&FP source register, encoded in the "Rm" field.
 
@@ -48761,9 +48761,9 @@ C7.3.193       REV16 (vector)
 
                                          It is RESERVED when:
 
-                                         ·      size = 01, Q = x.
+                                         .      size = 01, Q = x.
 
-                                         ·      size = 1x, Q = x.
+                                         .      size = 1x, Q = x.
 
                        <Vn>              Is the name of the SIMD&FP source register, encoded in the "Rn" field.
 
@@ -50082,9 +50082,9 @@ C7.3.205       SADDLV
 
                                          It is RESERVED when:
 
-                                         ·      size = 10, Q = 0.
+                                         .      size = 10, Q = 0.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
 
                        Operation
@@ -50342,11 +50342,11 @@ C7-1186                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      immh = 0001, Q = x.
+                              .      immh = 0001, Q = x.
 
-                              ·      immh = 001x, Q = x.
+                              .      immh = 001x, Q = x.
 
-                              ·      immh = 1xxx, Q = 0.
+                              .      immh = 1xxx, Q = 0.
 
                 <Vn>          Is the name of the SIMD&FP source register, encoded in the "Rn" field.
 
@@ -50370,9 +50370,9 @@ C7-1186                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      immh = 0001.
+                              .      immh = 0001.
 
-                              ·      immh = 001x.
+                              .      immh = 001x.
 
 
                 Operation for all encodings
@@ -52346,9 +52346,9 @@ C7.3.229       SMAXV
 
                                          It is RESERVED when:
 
-                                         ·      size = 10, Q = 0.
+                                         .      size = 10, Q = 0.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
 
                        Operation
@@ -52644,9 +52644,9 @@ C7.3.232       SMINV
 
                                          It is RESERVED when:
 
-                                         ·      size = 10, Q = 0.
+                                         .      size = 10, Q = 0.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
 
                        Operation
@@ -52746,9 +52746,9 @@ C7.3.233       SMLAL, SMLAL2 (by element)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -52774,9 +52774,9 @@ C7-1226                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00, Q = x.
+                              .      size = 00, Q = x.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
                 <Vm>          Is the name of the second SIMD&FP source register, encoded in the "size:M:Rm" field. It can have
                               the following values:
@@ -52787,9 +52787,9 @@ C7-1226                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               Restricted to V0-V15 when element size <Ts> is H.
 
@@ -52801,9 +52801,9 @@ C7-1226                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <index>       Is the element index encoded in the "size:L:H:M" field. It can have the following values:
 
@@ -52813,9 +52813,9 @@ C7-1226                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
 
                 Operation
@@ -53030,9 +53030,9 @@ C7.3.235       SMLSL, SMLSL2 (by element)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -53058,9 +53058,9 @@ C7-1230                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00, Q = x.
+                              .      size = 00, Q = x.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
                 <Vm>          Is the name of the second SIMD&FP source register, encoded in the "size:M:Rm" field. It can have
                               the following values:
@@ -53071,9 +53071,9 @@ C7-1230                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               Restricted to V0-V15 when element size <Ts> is H.
 
@@ -53085,9 +53085,9 @@ C7-1230                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <index>       Is the element index encoded in the "size:L:H:M" field. It can have the following values:
 
@@ -53097,9 +53097,9 @@ C7-1230                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
 
                 Operation
@@ -53435,9 +53435,9 @@ C7.3.238       SMULL, SMULL2 (by element)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -53462,9 +53462,9 @@ C7-1236                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00, Q = x.
+                              .      size = 00, Q = x.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
                 <Vm>          Is the name of the second SIMD&FP source register, encoded in the "size:M:Rm" field. It can have
                               the following values:
@@ -53475,9 +53475,9 @@ C7-1236                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               Restricted to V0-V15 when element size <Ts> is H.
 
@@ -53489,9 +53489,9 @@ C7-1236                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <index>       Is the element index encoded in the "size:L:H:M" field. It can have the following values:
 
@@ -53501,9 +53501,9 @@ C7-1236                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
 
                 Operation
@@ -54025,9 +54025,9 @@ C7-1244                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <Vn>          Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -54043,9 +54043,9 @@ C7-1244                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00, Q = x.
+                              .      size = 00, Q = x.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
                 <Va>          Is the destination width specifier, encoded in the "size" field. It can have the following values:
 
@@ -54055,9 +54055,9 @@ C7-1244                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <d>           Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -54069,9 +54069,9 @@ C7-1244                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <n>           Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -54094,9 +54094,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          Restricted to V0-V15 when element size <Ts> is H.
 
@@ -54109,9 +54109,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          For the vector variant: is an element size specifier, encoded in the "size" field. It can have the
                                          following values:
@@ -54122,9 +54122,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <index>           For the scalar variant: is the element index, encoded in the "size:L:H:M" field. It can have the
                                          following values:
@@ -54135,9 +54135,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          For the vector variant: is the element index encoded in the "size:L:H:M" field. It can have the
                                          following values:
@@ -54148,9 +54148,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
 
                        Operation for all encodings
@@ -54293,9 +54293,9 @@ C7-1248                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <Vn>          Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -54311,9 +54311,9 @@ C7-1248                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00, Q = x.
+                              .      size = 00, Q = x.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
                 <Vm>          Is the name of the second SIMD&FP source register, encoded in the "Rm" field.
 
@@ -54325,9 +54325,9 @@ C7-1248                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <d>           Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -54339,9 +54339,9 @@ C7-1248                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <n>           Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -54503,9 +54503,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -54521,9 +54521,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Va>              Is the destination width specifier, encoded in the "size" field. It can have the following values:
 
@@ -54533,9 +54533,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -54547,9 +54547,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <n>               Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -54572,9 +54572,9 @@ C7-1252                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               Restricted to V0-V15 when element size <Ts> is H.
 
@@ -54587,9 +54587,9 @@ C7-1252                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               For the vector variant: is an element size specifier, encoded in the "size" field. It can have the
                               following values:
@@ -54600,9 +54600,9 @@ C7-1252                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <index>       For the scalar variant: is the element index, encoded in the "size:L:H:M" field. It can have the
                               following values:
@@ -54613,9 +54613,9 @@ C7-1252                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               For the vector variant: is the element index encoded in the "size:L:H:M" field. It can have the
                               following values:
@@ -54626,9 +54626,9 @@ C7-1252                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
 
                 Operation for all encodings
@@ -54771,9 +54771,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -54789,9 +54789,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Vm>              Is the name of the second SIMD&FP source register, encoded in the "Rm" field.
 
@@ -54803,9 +54803,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -54817,9 +54817,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <n>               Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -54970,9 +54970,9 @@ C7-1258                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <d>           Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -54992,9 +54992,9 @@ C7-1258                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00, Q = x.
+                              .      size = 00, Q = x.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
                 <Vn>          Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -55007,9 +55007,9 @@ C7-1258                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               Restricted to V0-V15 when element size <Ts> is H.
 
@@ -55022,9 +55022,9 @@ C7-1258                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               For the vector variant: is an element size specifier, encoded in the "size" field. It can have the
                               following values:
@@ -55046,9 +55046,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <index>           For the scalar variant: is the element index, encoded in the "size:L:H:M" field. It can have the
                                          following values:
@@ -55059,9 +55059,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          For the vector variant: is the element index encoded in the "size:L:H:M" field. It can have the
                                          following values:
@@ -55072,9 +55072,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
 
                        Operation for all encodings
@@ -55175,9 +55175,9 @@ C7.3.247    SQDMULH (vector)
 
                                It is RESERVED when:
 
-                               ·      size = 00.
+                               .      size = 00.
 
-                               ·      size = 11.
+                               .      size = 11.
 
                 <d>            Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -55209,9 +55209,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -55353,9 +55353,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -55371,9 +55371,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Va>              Is the destination width specifier, encoded in the "size" field. It can have the following values:
 
@@ -55383,9 +55383,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -55397,9 +55397,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <n>               Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -55412,7 +55412,7 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
 
 
@@ -55424,7 +55424,7 @@ C7-1264                                    Copyright © 2013, 2014 ARM Limited. A
 
 
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               Restricted to V0-V15 when element size <Ts> is H.
 
@@ -55437,9 +55437,9 @@ C7-1264                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               For the vector variant: is an element size specifier, encoded in the "size" field. It can have the
                               following values:
@@ -55450,9 +55450,9 @@ C7-1264                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <index>       For the scalar variant: is the element index, encoded in the "size:L:H:M" field. It can have the
                               following values:
@@ -55463,9 +55463,9 @@ C7-1264                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               For the vector variant: is the element index encoded in the "size:L:H:M" field. It can have the
                               following values:
@@ -55476,9 +55476,9 @@ C7-1264                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
 
                 Operation for all encodings
@@ -55603,9 +55603,9 @@ C7-1266                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <Vn>          Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -55621,9 +55621,9 @@ C7-1266                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00, Q = x.
+                              .      size = 00, Q = x.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
                 <Vm>          Is the name of the second SIMD&FP source register, encoded in the "Rm" field.
 
@@ -55635,9 +55635,9 @@ C7-1266                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <d>           Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -55649,9 +55649,9 @@ C7-1266                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <n>           Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -55930,9 +55930,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <d>               Is the number of the SIMD&FP destination register, encoded in the "Rd" field.
 
@@ -55952,9 +55952,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Vn>              Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -55967,9 +55967,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          Restricted to V0-V15 when element size <Ts> is H.
 
@@ -55982,9 +55982,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          For the vector variant: is an element size specifier, encoded in the "size" field. It can have the
                                          following values:
@@ -56006,9 +56006,9 @@ C7-1272                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <index>       For the scalar variant: is the element index, encoded in the "size:L:H:M" field. It can have the
                               following values:
@@ -56019,9 +56019,9 @@ C7-1272                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                               For the vector variant: is the element index encoded in the "size:L:H:M" field. It can have the
                               following values:
@@ -56032,9 +56032,9 @@ C7-1272                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
 
                 Operation for all encodings
@@ -56135,9 +56135,9 @@ C7.3.252       SQRDMULH (vector)
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <d>               Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -56169,9 +56169,9 @@ C7-1274                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      size = 00, Q = x.
+                              .      size = 00, Q = x.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
                 <Vn>          Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -56486,9 +56486,9 @@ C7-1278                                    Copyright © 2013, 2014 ARM Limited. A
 
                           It is RESERVED when:
 
-                          ·      immh = 0000.
+                          .      immh = 0000.
 
-                          ·      immh = 1xxx.
+                          .      immh = 1xxx.
 
                 <d>       Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -56502,9 +56502,9 @@ C7-1278                                    Copyright © 2013, 2014 ARM Limited. A
 
                           It is RESERVED when:
 
-                          ·      immh = 0000.
+                          .      immh = 0000.
 
-                          ·      immh = 1xxx.
+                          .      immh = 1xxx.
 
                 <n>       Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -56529,9 +56529,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                                          For the vector variant: is the right shift amount, in the range 1 to the destination element width in
                                          bits, encoded in the "immh:immb" field. It can have the following values:
@@ -56701,9 +56701,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                        <d>               Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -56717,9 +56717,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                        <n>               Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -56734,9 +56734,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
 
 C7-1282                                    Copyright © 2013, 2014 ARM Limited. All rights reserved.                           ARM DDI 0487A.e
@@ -57448,9 +57448,9 @@ C7-1292                                    Copyright © 2013, 2014 ARM Limited. A
 
                           It is RESERVED when:
 
-                          ·      immh = 0000.
+                          .      immh = 0000.
 
-                          ·      immh = 1xxx.
+                          .      immh = 1xxx.
 
                 <d>       Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -57464,9 +57464,9 @@ C7-1292                                    Copyright © 2013, 2014 ARM Limited. A
 
                           It is RESERVED when:
 
-                          ·      immh = 0000.
+                          .      immh = 0000.
 
-                          ·      immh = 1xxx.
+                          .      immh = 1xxx.
 
                 <n>       Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -57491,9 +57491,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                                          For the vector variant: is the right shift amount, in the range 1 to the destination element width in
                                          bits, encoded in the "immh:immb" field. It can have the following values:
@@ -57663,9 +57663,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                        <d>               Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -57679,9 +57679,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                        <n>               Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -57696,9 +57696,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
 
 C7-1296                                    Copyright © 2013, 2014 ARM Limited. All rights reserved.                           ARM DDI 0487A.e
@@ -58505,9 +58505,9 @@ C7.3.266    SRSHL
 
                               It is RESERVED when:
 
-                              ·       size = 0x.
+                              .       size = 0x.
 
-                              ·       size = 10.
+                              .       size = 10.
 
                 <d>           Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -58966,9 +58966,9 @@ C7.3.269    SSHL
 
                                 It is RESERVED when:
 
-                                ·       size = 0x.
+                                .       size = 0x.
 
-                                ·       size = 10.
+                                .       size = 10.
 
                 <d>             Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -62396,9 +62396,9 @@ C7-1362                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      option = 00x.
+                              .      option = 00x.
 
-                              ·      option = 10x.
+                              .      option = 10x.
 
                 <m>           Is the number [0-30] of the general-purpose index register or the name ZR (31), encoded in the "Rm"
                               field.
@@ -62416,9 +62416,9 @@ C7-1362                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      option = 00x.
+                              .      option = 00x.
 
-                              ·      option = 10x.
+                              .      option = 10x.
 
                 <amount>      For the 8-bit variant: is the index shift amount, optional and defaulting to #0 when <extend> is not
                               LSL, encoded in the "S" field. It can have the following values:
@@ -62720,9 +62720,9 @@ C7.3.288    SUB (vector)
 
                                It is RESERVED when:
 
-                               ·      size = 0x.
+                               .      size = 0x.
 
-                               ·      size = 10.
+                               .      size = 10.
 
                 <d>            Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -63055,9 +63055,9 @@ C7.3.291    SXTL
 
                 This instruction is an alias of the SSHLL, SSHLL2 instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of SSHLL, SSHLL2.
+                .      The encodings in this description are named to match the encodings of SSHLL, SSHLL2.
 
-                ·      The description of SSHLL, SSHLL2 gives the operational pseudocode for this instruction.
+                .      The description of SSHLL, SSHLL2 gives the operational pseudocode for this instruction.
 
 
 
@@ -64384,9 +64384,9 @@ C7.3.303    UADDLV
 
                               It is RESERVED when:
 
-                              ·      size = 10, Q = 0.
+                              .      size = 10, Q = 0.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
 
                 Operation
@@ -64644,11 +64644,11 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0001, Q = x.
+                                         .      immh = 0001, Q = x.
 
-                                         ·      immh = 001x, Q = x.
+                                         .      immh = 001x, Q = x.
 
-                                         ·      immh = 1xxx, Q = 0.
+                                         .      immh = 1xxx, Q = 0.
 
                        <Vn>              Is the name of the SIMD&FP source register, encoded in the "Rn" field.
 
@@ -64672,9 +64672,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0001.
+                                         .      immh = 0001.
 
-                                         ·      immh = 001x.
+                                         .      immh = 001x.
 
 
                        Operation for all encodings
@@ -65508,9 +65508,9 @@ C7.3.313    UMAXV
 
                               It is RESERVED when:
 
-                              ·      size = 10, Q = 0.
+                              .      size = 10, Q = 0.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
 
                 Operation
@@ -65806,9 +65806,9 @@ C7.3.316    UMINV
 
                               It is RESERVED when:
 
-                              ·      size = 10, Q = 0.
+                              .      size = 10, Q = 0.
 
-                              ·      size = 11, Q = x.
+                              .      size = 11, Q = x.
 
 
                 Operation
@@ -65908,9 +65908,9 @@ C7.3.317    UMLAL, UMLAL2 (by element)
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <Vn>          Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -65936,9 +65936,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Vm>              Is the name of the second SIMD&FP source register, encoded in the "size:M:Rm" field. It can have
                                          the following values:
@@ -65949,9 +65949,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          Restricted to V0-V15 when element size <Ts> is H.
 
@@ -65963,9 +65963,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <index>           Is the element index encoded in the "size:L:H:M" field. It can have the following values:
 
@@ -65975,9 +65975,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
 
                        Operation
@@ -66192,9 +66192,9 @@ C7.3.319    UMLSL, UMLSL2 (by element)
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <Vn>          Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -66220,9 +66220,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Vm>              Is the name of the second SIMD&FP source register, encoded in the "size:M:Rm" field. It can have
                                          the following values:
@@ -66233,9 +66233,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          Restricted to V0-V15 when element size <Ts> is H.
 
@@ -66247,9 +66247,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <index>           Is the element index encoded in the "size:L:H:M" field. It can have the following values:
 
@@ -66259,9 +66259,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
 
                        Operation
@@ -66501,13 +66501,13 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      imm5 = x0000.
+                                         .      imm5 = x0000.
 
-                                         ·      imm5 = xxxx1.
+                                         .      imm5 = xxxx1.
 
-                                         ·      imm5 = xxx10.
+                                         .      imm5 = xxx10.
 
-                                         ·      imm5 = xx100.
+                                         .      imm5 = xx100.
 
                        <index>           For the 32-bit variant: is the element index encoded in the "imm5" field. It can have the following
                                          values:
@@ -66599,9 +66599,9 @@ C7.3.322    UMULL, UMULL2 (by element)
 
                               It is RESERVED when:
 
-                              ·      size = 00.
+                              .      size = 00.
 
-                              ·      size = 11.
+                              .      size = 11.
 
                 <Vn>          Is the name of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -66626,9 +66626,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00, Q = x.
+                                         .      size = 00, Q = x.
 
-                                         ·      size = 11, Q = x.
+                                         .      size = 11, Q = x.
 
                        <Vm>              Is the name of the second SIMD&FP source register, encoded in the "size:M:Rm" field. It can have
                                          the following values:
@@ -66639,9 +66639,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                                          Restricted to V0-V15 when element size <Ts> is H.
 
@@ -66653,9 +66653,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
                        <index>           Is the element index encoded in the "size:L:H:M" field. It can have the following values:
 
@@ -66665,9 +66665,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      size = 00.
+                                         .      size = 00.
 
-                                         ·      size = 11.
+                                         .      size = 11.
 
 
                        Operation
@@ -67224,9 +67224,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                        <d>               Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -67240,9 +67240,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                        <n>               Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -67267,9 +67267,9 @@ C7-1440                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      immh = 0000.
+                              .      immh = 0000.
 
-                              ·      immh = 1xxx.
+                              .      immh = 1xxx.
 
                               For the vector variant: is the right shift amount, in the range 1 to the destination element width in
                               bits, encoded in the "immh:immb" field. It can have the following values:
@@ -67780,9 +67780,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                        <d>               Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -67796,9 +67796,9 @@ C7.3 Alphabetical list of floating-point and Advanced SIMD instructions
 
                                          It is RESERVED when:
 
-                                         ·      immh = 0000.
+                                         .      immh = 0000.
 
-                                         ·      immh = 1xxx.
+                                         .      immh = 1xxx.
 
                        <n>               Is the number of the first SIMD&FP source register, encoded in the "Rn" field.
 
@@ -67823,9 +67823,9 @@ C7-1448                                    Copyright © 2013, 2014 ARM Limited. A
 
                               It is RESERVED when:
 
-                              ·      immh = 0000.
+                              .      immh = 0000.
 
-                              ·      immh = 1xxx.
+                              .      immh = 1xxx.
 
                               For the vector variant: is the right shift amount, in the range 1 to the destination element width in
                               bits, encoded in the "immh:immb" field. It can have the following values:
@@ -68383,9 +68383,9 @@ C7.3.334       URSHL
 
                                          It is RESERVED when:
 
-                                         ·      size = 0x.
+                                         .      size = 0x.
 
-                                         ·      size = 10.
+                                         .      size = 10.
 
                        <d>               Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -68912,9 +68912,9 @@ C7.3.338    USHL
 
                                It is RESERVED when:
 
-                               ·       size = 0x.
+                               .       size = 0x.
 
-                               ·       size = 10.
+                               .       size = 10.
 
                 <d>            Is the number of the SIMD&FP destination register, in the "Rd" field.
 
@@ -69821,9 +69821,9 @@ C7.3.345    UXTL
 
                 This instruction is an alias of the USHLL, USHLL2 instruction. This means that:
 
-                ·      The encodings in this description are named to match the encodings of USHLL, USHLL2.
+                .      The encodings in this description are named to match the encodings of USHLL, USHLL2.
 
-                ·      The description of USHLL, USHLL2 gives the operational pseudocode for this instruction.
+                .      The description of USHLL, USHLL2 gives the operational pseudocode for this instruction.
 
 
 

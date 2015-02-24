@@ -10,6 +10,8 @@ def shift_left(lines):
 			spaceLen = min(len(m.group(1)), spaceLen)
 
 	for i in range(0, len(lines)):
+		print lines[i]
+		lines[i] = lines[i].encode('utf8', 'ignore')
 		if(len(line) > 0):
 			lines[i] = lines[i][spaceLen:]
 
